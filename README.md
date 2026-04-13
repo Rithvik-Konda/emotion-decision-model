@@ -1,6 +1,6 @@
 # Emotion and Decision Making Model
 
-This folder contains a minimal Python simulation for a cognitive science course project.
+This folder contains a Python simulation for my project.
 
 ## Files
 - `emotion_decision_model.py` contains the model
