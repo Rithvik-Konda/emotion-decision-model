@@ -1,0 +1,38 @@
+Emotion and Decision Making Simulation
+========================================
+
+Scenario: Career choice under uncertainty
+----------------------------------------
+With emotion
+Winner: Startup
+Steps to convergence: 8
+Final activations: {'Stable Job': -1.0, 'Startup': 1.0, 'Graduate School': 1.0}
+
+Without emotion
+Winner: Startup
+Steps to convergence: 15
+Final activations: {'Stable Job': -1.0, 'Startup': 1.0, 'Graduate School': 1.0}
+
+Scenario: Medical decision with risk tradeoff
+----------------------------------------
+With emotion
+Winner: Medication
+Steps to convergence: 8
+Final activations: {'Immediate Surgery': -1.0, 'Medication': 1.0, 'Watchful Waiting': 1.0}
+
+Without emotion
+Winner: Medication
+Steps to convergence: 14
+Final activations: {'Immediate Surgery': -1.0, 'Medication': 1.0, 'Watchful Waiting': 1.0}
+
+Scenario: Travel planning with conflicting preferences
+----------------------------------------
+With emotion
+Winner: Direct Flight
+Steps to convergence: 50
+Final activations: {'Cheap Flight': -1.0, 'Direct Flight': 1.0, 'Train': -0.610644730322884}
+
+Without emotion
+Winner: Cheap Flight
+Steps to convergence: 35
+Final activations: {'Cheap Flight': 1.0, 'Direct Flight': -1.0, 'Train': 1.0}
